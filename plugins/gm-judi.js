@@ -2,8 +2,8 @@ let buatall = 1
 let { MessageType } = require('@adiwajshing/baileys')
 let handler = async (m, { conn, args, usedPrefix }) => {
     try {
-        let randomaku = `${Math.floor(Math.random() * 101)}`.trim()
-        let randomkamu = `${Math.floor(Math.random() * 81)}`.trim() //hehe Biar Susah Menang :v
+        let randomaku = `${Math.floor(Math.random() * 81)}`.trim()
+        let randomkamu = `${Math.floor(Math.random() * 101)}`.trim() //hehe Biar Susah Menang :v
         let Aku = (randomaku * 1)
         let Kamu = (randomkamu * 1)
         let count = args[0]
