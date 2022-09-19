@@ -28,6 +28,7 @@ global.APIKeys = { // APIKey Here
   'https://pencarikode.xyz': 'pais',
   'https://hardianto.xyz': 'hardianto',
   'https://leyscoders-api.herokuapp.com': 'dappakntlll'
+  'https://api.lolhuman.xyz': 'Imanmon'
 }
 global.packname = data.namabot
 global.author = data.owner
