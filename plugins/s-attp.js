@@ -1,7 +1,7 @@
 let handler = async (m, { conn, text }) => {
 let teks = text ? text : m.quoted && m.quoted.text ? m.quoted.text : 'teksnya mana?'
 /*let sel = global.API('xteam', '/attp', { file: '', text: teks })*/
-let sel = (`https://api.lolhuman.xyz/api/attp2?apikey=SGWN&text=${text}`)
+let sel = (`https://api.lolhuman.xyz/api/attp2?apikey=Imanmon&text=${text}`)
  conn.sendFile(m.chat, sel, 'attp.webp', 0, fake, {packname: packname, author: author, mentions: [m.semder]})
 }
 handler.help = ['attp <teks>']
