@@ -16,7 +16,7 @@ let [number, pesan] = text.split `|`
     conn.reply(m.chat, `_*Pesan Menfes Berhasil Terkirim Ke ${korban}!*_`, m)
 }
 handler.help = ['menfes nomor|pesan']
-handler.tags = ['m']
+handler.tags = ['main']
 handler.command = /^(menfess|menfes)$/i
 handler.rowner = false
 handler.limit = true
