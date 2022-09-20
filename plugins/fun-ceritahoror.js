@@ -1,7 +1,7 @@
 let fetch = require('node-fetch')
 let handler = async (m, { conn }) => {
   
-let res = await fetch('https://api.lolhuman.xyz/api/ceritahoror?apikey=SGWN')
+let res = await fetch('https://api.lolhuman.xyz/api/ceritahoror?apikey=Imanmon')
     let json = await res.json()
     
     await m.reply(data.wait)
